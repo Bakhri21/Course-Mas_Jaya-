@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px 0px;
+  padding: 3px;
+  background-color: brown;
+  color: white;
+}
+
+table {
+  width: 80%;
+}
+
+table th {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: tomato;
+  color: white;
+  padding: 5px 2px;
+}
+
+table td {
+  background-color: rgb(248, 162, 147);
+  padding: 3px 2px;
+  text-align: center;
+}
